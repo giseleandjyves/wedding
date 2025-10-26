@@ -329,17 +329,15 @@ figure {
 
 @media only screen and (max-width: 600px) {
   #fh5co-header {
-    background-image: url("../images/roli/together5.jpg") !important;
+    background-image: url("/images/photos/VELA9707.JPG") !important;
+    background-position: center 90% !important;
   }
 }
 
 @media only screen and (max-width: 400px) {
   #fh5co-header {
-    background-image: url("../images/roli/together6.gif") !important;
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    background-image: url("/images/photos/VELA9707.JPG") !important;
+    background-position: center 10% !important;
   }
 }
 
