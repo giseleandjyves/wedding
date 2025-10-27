@@ -22,7 +22,7 @@
   background-image: url(./images/photos/VELA9499.JPG);
   background-repeat: no-repeat;
   /* background-size: contain; */
-  background-position: 30% 30%;
+  background-position: 30% 50% !important;
   border-radius: 8px;
   /* Add mirror reflection */
 }
