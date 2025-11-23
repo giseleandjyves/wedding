@@ -277,18 +277,9 @@ figure {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 872px) {
-  #fh5co-header {
-    background-image: url("images/gijy/photos/VELA9707.JPG") !important;
-  }
-}
 @media only screen and (max-width: 400px) {
   #fh5co-header {
-    background-image: url("images/gijy/photos/VELA9707.JPG") !important;
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    background-position: -120px -20px !important;
   }
 }
 #fh5co-counter,
