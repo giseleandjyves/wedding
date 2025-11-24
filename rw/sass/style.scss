@@ -347,19 +347,18 @@ figure {
 
 @media only screen and (max-width: 872px) {
   #fh5co-header {
-    background-image: url("images/gijy/photos/VELA9707.JPG") !important;
+    // background-image: url("images/gijy/photos/VELA9707.JPG") !important;
     //background-position: -500px 0px;
   }
 }
 @media only screen and (max-width: 400px) {
   #fh5co-header {
-    //background-image: url("../images/roli/together5.jpg") !important;
-    background-image: url("images/gijy/photos/VELA9707.JPG") !important;
-    // background-position: -700px 0px;
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    // background-image: url("images/gijy/photos/VELA9707.JPG") !important;
+    background-position: -120px -20px !important;
+    // background-position: top left;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: 100%;
     //background-color: #464646;
   }
 }
