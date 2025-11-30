@@ -4,4 +4,6 @@
 <input type="checkbox"> Update forms<br>
 
 - [x] Remove images from rw to root ./images/
+- [] Photo page for en 
+- []  
 

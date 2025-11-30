@@ -67,7 +67,7 @@ hr {
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 html {
@@ -272,14 +272,41 @@ figure {
 }
 
 #fh5co-header {
+  background-color: #617b62;
   background-size: cover;
+  background-position: 300px 0px !important;
   background-position: 0 0;
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 1700px) {
+  #fh5co-header {
+    background-position: -300px 0px !important;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  #fh5co-header {
+    background-position: -300px -100px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #fh5co-header {
+    background-position: -500px 0px !important;
+  }
+}
+@media only screen and (max-width: 872px) {
+  #fh5co-header {
+    background-position: -500px 0px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #fh5co-header {
+    background-position: -700px -200px !important;
+  }
+}
 @media only screen and (max-width: 400px) {
   #fh5co-header {
-    background-position: -120px -20px !important;
+    background-position: -700px -200px !important;
   }
 }
 #fh5co-counter,

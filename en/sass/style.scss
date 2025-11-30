@@ -108,7 +108,7 @@ $form-group-margin-bottom: 30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 html {
@@ -338,28 +338,49 @@ figure {
 // }
 
 #fh5co-header {
+  background-color: #617b62;
   background-size: cover;
-  //background-position: top right;
+  background-position: 300px 0px !important;
   background-position: 0 0;
   background-repeat: no-repeat;
-  //position: relative;
+  
+}
+
+@media only screen and (max-width: 1700px) {
+  #fh5co-header {
+    background-position: -300px 0px !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  #fh5co-header {
+    background-position: -300px -100px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #fh5co-header {
+    background-position: -500px 0px !important;
+  }
 }
 
 @media only screen and (max-width: 872px) {
   #fh5co-header {
-    // background-image: url("images/gijy/photos/VELA9707.JPG") !important;
-    //background-position: -500px 0px;
+    background-position: -500px 0px !important;
+
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #fh5co-header {
+    background-position: -700px -200px !important;
+
+  }
+}
+
 @media only screen and (max-width: 400px) {
   #fh5co-header {
-    // background-image: url("images/gijy/photos/VELA9707.JPG") !important;
-    background-position: -120px -20px !important;
-    // background-position: top left;
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background-size: 100%;
-    //background-color: #464646;
+    background-position: -700px -200px !important;
   }
 }
 
